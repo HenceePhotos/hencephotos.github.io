@@ -1,0 +1,169 @@
+body {
+    background-color: black;
+}
+
+.logolink {
+    width: 120px;
+    display: inline-block;
+}
+
+.logolink img {
+    width: 100%;
+}
+
+.navbar {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links:hover {
+    color: darkgrey;
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:hover {
+    color: darkgrey;
+}
+
+.nav-item:hover a {
+    color: darkgrey;
+}
+
+.logo img {
+    width: 100%;
+    vertical-align: left;
+}
+
+.trailer {
+    width: 100%;
+    height: auto;
+}
+
+.team {
+    background-color: dimgrey;
+}
+
+.profilepics {
+    width: 25%;
+    height: auto;
+    margin: 20px;
+}
+
+.description {
+    width: 25%;
+    height: auto;
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: 25%;
+    height: auto;
+    margin: 20px;
+}
+
+.col2 {
+    width: 25%;
+    height: auto;
+    margin: 2px;
+}
+
+nav {
+    margin: 0 auto;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    transition: top 0.3s;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.titles {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile {
+    width: 200px;
+    padding: 20px;
+}
+
+.logofooter {
+    width: 200px;
+}
+
+a {
+    color: white;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgrey;
+}
+
+.services {
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    color: white;
+}
+
+img {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+#videography {
+    background-image: image(../images/Videography.png)
+}
+
+#photography {
+    background-image: 
+}
+
+#editing {
+    background-image: image()
+}
+
+#webdesign {
+    background-image: image()
+}

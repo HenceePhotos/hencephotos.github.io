@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <title>5X5 Media Group</title>
+        
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        
+    </head>
+    
+    <body>
+        
+        <! ----------------------–– NAVIGATION -------------------––>
+        
+        <nav class="navbar" id="nav">
+            
+            <a href="index.html" class="logolink">
+                
+                <img class="logolink" src="images/Logo%20clear.png" alt="5X5">
+            
+            </a>
+            
+            <ul class="nav-links">
+                <li class="nav-item"><a href="#">Our work</a></li>
+                <li class="nav-item"><a href="#">About Us</a></li>
+                <li class="nav-item"><a href="#">Servies</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+            </ul>
+        
+        </nav>
+        
+        <! ----------------------–– SCRIPT -------------------––>
+        
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+            document.getElementById("nav").style.top = "0";
+            } else {
+            document.getElementById("nav").style.top = "-300px";
+            }
+            prevScrollpos = currentScrollPos;
+            }
+        </script>
+        
+        <! ----------------------–– TRAILER -------------------––>
+        
+        <video width="1920" height="1080" autoplay muted loop>
+            
+            <source src="images/Comp%201_1.webm" type="video/webm">
+            
+            Your browser does not support the video tag.
+        
+        </video>
+        
+        <div class="Trailer">
+            
+            <h1 class="titles">Group Trailer/Showcase Video</h1>
+            
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/83zsr34zctM?si=XSLAVKdENUjzuLge" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        </div>
+        
+        <! ----------------------–– SERVICES -------------------––>
+        
+        <div class="services">
+            
+            <div class="row">
+                <div class="col2" id="videography">
+                    <img src="images/Videography.png">
+                    <h2>Videography</h2>
+                </div>
+                <div class="col2" id="photography">
+                    <img src="images/Photographer.png">
+                    <h2>Photography</h2>
+                </div>
+                <div class="col2" id="editing">
+                    <img src="images/editing.png">
+                    <h2>Editing</h2>
+                </div>
+                <div class="col2" id="webdesign">
+                    <img src="images/webdesign.png">
+                    <h2>Web Design</h2>
+                </div>
+            </div>
+        </div>
+        
+        <! ----------------------–– THE TEAM -------------------––>
+        
+        <div class="team">
+            
+            <h1 class="titles">Meet the team</h1>
+            
+            <div class="row">
+                <div class="col"></div>
+                <div class="profilepics">
+                    <img class="profile" src="images/profile%20icons.png">
+                </div>
+                <div class="description"> 
+                    <h1>Dean - Web Developer</h1>
+                    <p>Bro makes websites n shi</p>
+                </div>
+                <div class="col"></div>
+            </div>
+            
+            <div class="row">
+                <div class="col"></div>
+                <div class="profilepics">
+                    <img class="profile" src="images/profile%20icons.png">
+                </div>
+                <div class="description"> 
+                    <h1>Andrew - Photographer</h1>
+                    <p>Exposes light to a censor</p>
+                </div>
+                <div class="col"></div>
+            </div>
+            
+            <div class="row">
+                <div class="col"></div>
+                <div class="profilepics">
+                    <img class="profile" src="images/profile%20icons.png">
+                </div>
+                <div class="description"> 
+                    <h1>Alex - Videographer</h1>
+                    <p>Takes 60 pictures a second</p>
+                </div>
+                <div class="col"></div>
+            </div>
+            
+            <div class="row">
+                <div class="col"></div>
+                <div class="profilepics">
+                    <img class="profile" src="images/profile%20icons.png">
+                </div>
+                <div class="description"> 
+                    <h1>Sebastian - Director of Arts</h1>
+                    <p>Directs art? idk</p>
+                </div>
+                <div class="col"></div>
+            </div>
+            
+            <div class="row">
+                <div class="col"></div>
+                <div class="profilepics">
+                    <img class="profile" src="images/profile%20icons.png">
+                </div>
+                <div class="description"> 
+                    <h1>Shay - Project Manager</h1>
+                    <p>Manages the projects innit</p>
+                </div>
+                <div class="col"></div>
+            </div>
+        
+        </div>
+        
+        <! ----------------------–– FOOTER -------------------––>
+        
+        <footer>
+            
+            <div class="row">
+                
+                <div class="col">
+                    <img class="logofooter" src="images/Logo%20clear.png">
+                </div>
+                
+                <div class="col">
+                    <h3>Check This Out</h3>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">YouTube</a>
+                </div>
+                
+                <div class="col">
+                    <h3>Corporate Stuff</h3>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of serice</a>
+                </div>
+                
+                <div class="col">
+                    <h3>Get in Touch</h3>
+                    <a href="#">Send us an email</a>
+                </div>
+            
+            </div>
+        </footer>
+    
+    </body>
+    
+</html>
